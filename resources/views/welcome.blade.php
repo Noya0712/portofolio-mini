@@ -276,14 +276,22 @@
       <h2 class="project-title fade-hidden">My Project</h2>
 
       <div class="project-grid">
-        <button class="project-item fade-hidden">
-          <div class="project-image"></div>
-          <div class="project-text">Project Title</div>
+        <button class="project-item fade-hidden"
+          onclick="window.open('https://github.com/fakerryugan/androidtandatanganwangi/', '_blank')">
+          <img class="project-image" src="gambar/aplikasittd.png" alt="Project 3" />
+          <div class="project-text">
+            Design Aplikasi Tanda Tangan Digital
+          </div>
         </button>
-        <button class="project-item fade-hidden">
-          <div class="project-image"></div>
-          <div class="project-text">Project Title</div>
+
+        <button class="project-item fade-hidden"
+          onclick="window.open('https://6a13ebcef1dc50e10296c147--incredible-nasturtium-91f928.netlify.app//', '_blank')">
+          <img class="project-image" src="gambar/resep.png" alt="Project 2" />
+          <div class="project-text">
+            Frontend Website Resep Makanan Holut Yudawan
+          </div>
         </button>
+
         <button class="project-item fade-hidden"
           onclick="window.open('https://mager.vercel.app/', '_blank')">
           <img class="project-image" src="gambar/mager.png" alt="Project 1" />
